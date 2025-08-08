@@ -193,10 +193,11 @@ aside p {
 }
 
 aside ul {
-    display: grid; grid-template-columns: repeat(2, 1fr);
-    margin-left: 2em;
+    columns: 2;
+    margin-left: 3em;
     margin-bottom: 1em;
     list-style-type: '\2714\00A0\00A0';
+    list-style-position: inside;
 }
 
 footer {
